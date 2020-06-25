@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Method creator</Title>
+			<Author>Berk Altun</Author>
+			<Shortcut>mtd</Shortcut>
+			<Description>Create method without any parameter</Description>
+			<SnippetTypes>
+				<SnippetType>SurroundsWith</SnippetType>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>accessmodifiers</ID>
+					<ToolTip>Access modifiers</ToolTip>
+					<Default>public</Default>
+				</Literal>
+				<Literal>
+					<ID>returntype</ID>
+					<ToolTip>Return type</ToolTip>
+					<Default>void</Default>
+				</Literal>
+				<Literal>
+					<ID>methodname</ID>
+					<ToolTip>Method name</ToolTip>
+					<Default>Method</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+				<![CDATA[
+				$accessmodifiers$ $returntype$ $methodname$() 
+				{
+					$selected$ $end$
+				}
+				]]>
+			</Code>
+			<Imports>
+				<Import>
+					<Namespace>System.IO</Namespace>
+				</Import>
+			</Imports>
+		</Snippet>
+	</CodeSnippet>
+
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Method creator with one param</Title>
+			<Author>Berk Altun</Author>
+			<Shortcut>mtd_1</Shortcut>
+			<Description>Create method with one parameter</Description>
+			<SnippetTypes>
+				<SnippetType>SurroundsWith</SnippetType>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>accessmodifiers</ID>
+					<ToolTip>Access modifiers</ToolTip>
+					<Default>public</Default>
+				</Literal>
+				<Literal>
+					<ID>returntype</ID>
+					<ToolTip>Return type</ToolTip>
+					<Default>void</Default>
+				</Literal>
+				<Literal>
+					<ID>methodname</ID>
+					<ToolTip>Method name</ToolTip>
+					<Default>Method</Default>
+				</Literal>
+				<Literal>
+					<ID>paramtype1</ID>
+					<ToolTip>Param type</ToolTip>
+					<Default>int</Default>
+				</Literal>
+				<Literal>
+					<ID>paramname1</ID>
+					<ToolTip>Param name</ToolTip>
+					<Default>value</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+				<![CDATA[
+				$accessmodifiers$ $returntype$ $methodname$($paramtype1$ $paramname1$) 
+				{
+					$selected$ $end$
+				}
+				]]>
+			</Code>
+			<Imports>
+				<Import>
+					<Namespace>System.IO</Namespace>
+				</Import>
+			</Imports>
+		</Snippet>
+	</CodeSnippet>
+
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Method creator with two params</Title>
+			<Author>Berk Altun</Author>
+			<Shortcut>mtd_2</Shortcut>
+			<Description>Create method with two parameters</Description>
+			<SnippetTypes>
+				<SnippetType>SurroundsWith</SnippetType>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>accessmodifiers</ID>
+					<ToolTip>Access modifiers</ToolTip>
+					<Default>public</Default>
+				</Literal>
+				<Literal>
+					<ID>returntype</ID>
+					<ToolTip>Return type</ToolTip>
+					<Default>void</Default>
+				</Literal>
+				<Literal>
+					<ID>methodname</ID>
+					<ToolTip>Method name</ToolTip>
+					<Default>Method</Default>
+				</Literal>
+				<Literal>
+					<ID>paramtype1</ID>
+					<ToolTip>Param type</ToolTip>
+					<Default>int</Default>
+				</Literal>
+				<Literal>
+					<ID>paramname1</ID>
+					<ToolTip>Param name</ToolTip>
+					<Default>value1</Default>
+				</Literal>
+				<Literal>
+					<ID>paramtype2</ID>
+					<ToolTip>Param type</ToolTip>
+					<Default>int</Default>
+				</Literal>
+				<Literal>
+					<ID>paramname2</ID>
+					<ToolTip>Param name</ToolTip>
+					<Default>value2</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+				<![CDATA[
+				$accessmodifiers$ $returntype$ $methodname$($paramtype1$ $paramname1$, $paramtype2$ $paramname2$) 
+				{
+					$selected$ $end$
+				}
+				]]>
+			</Code>
+			<Imports>
+				<Import>
+					<Namespace>System.IO</Namespace>
+				</Import>
+			</Imports>
+		</Snippet>
+	</CodeSnippet>
+
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Method creator with three params</Title>
+			<Author>Berk Altun</Author>
+			<Shortcut>mtd_3</Shortcut>
+			<Description>Create method with three parameters</Description>
+			<SnippetTypes>
+				<SnippetType>SurroundsWith</SnippetType>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>accessmodifiers</ID>
+					<ToolTip>Access modifiers</ToolTip>
+					<Default>public</Default>
+				</Literal>
+				<Literal>
+					<ID>returntype</ID>
+					<ToolTip>Return type</ToolTip>
+					<Default>void</Default>
+				</Literal>
+				<Literal>
+					<ID>methodname</ID>
+					<ToolTip>Method name</ToolTip>
+					<Default>Method</Default>
+				</Literal>
+				<Literal>
+					<ID>paramtype1</ID>
+					<ToolTip>Param type</ToolTip>
+					<Default>int</Default>
+				</Literal>
+				<Literal>
+					<ID>paramname1</ID>
+					<ToolTip>Param name</ToolTip>
+					<Default>value1</Default>
+				</Literal>
+				<Literal>
+					<ID>paramtype2</ID>
+					<ToolTip>Param type</ToolTip>
+					<Default>int</Default>
+				</Literal>
+				<Literal>
+					<ID>paramname2</ID>
+					<ToolTip>Param name</ToolTip>
+					<Default>value2</Default>
+				</Literal>
+				<Literal>
+					<ID>paramtype3</ID>
+					<ToolTip>Param type</ToolTip>
+					<Default>int</Default>
+				</Literal>
+				<Literal>
+					<ID>paramname3</ID>
+					<ToolTip>Param name</ToolTip>
+					<Default>value3</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="CSharp">
+				<![CDATA[
+				$accessmodifiers$ $returntype$ $methodname$($paramtype1$ $paramname1$, $paramtype2$ $paramname2$, $paramtype3$ $paramname3$) 
+				{
+					$selected$ $end$
+				}
+				]]>
+			</Code>
+			<Imports>
+				<Import>
+					<Namespace>System.IO</Namespace>
+				</Import>
+			</Imports>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
